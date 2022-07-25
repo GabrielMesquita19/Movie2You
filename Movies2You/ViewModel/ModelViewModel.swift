@@ -14,7 +14,6 @@ protocol MovieViewModelDelegate {
     
 }
 
-
 class MovieViewModel {
     
     let api = "?api_key=91d29542d168257f5c8d4cec082fea27"
@@ -55,7 +54,7 @@ class MovieViewModel {
             task.resume()
         }
     }
-    
+
     func getGenres(){
         if let urlGenres = URL(string: urlGenre+api+"&language=en-US"){
             let task = URLSession.shared.dataTask(with: urlGenres) { data, request, erro in

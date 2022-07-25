@@ -9,7 +9,7 @@ import UIKit
 
 class MovieSimilarCell: UITableViewCell {
     
-    @IBOutlet weak var ImageMovie: UIImageView!
+    @IBOutlet weak var movieImage: UIImageView!
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var infoLabel: UILabel!
     

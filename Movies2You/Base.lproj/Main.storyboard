@@ -36,7 +36,7 @@
                                                 <constraint firstAttribute="height" constant="44" id="u8l-5U-Q1H"/>
                                             </constraints>
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <state key="normal" image="hr">
+                                            <state key="normal">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                             <connections>
@@ -159,7 +159,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="ImageMovie" destination="YEC-xE-qy1" id="TEr-g4-Pm0"/>
+                                            <outlet property="MovieImage" destination="YEC-xE-qy1" id="TEr-g4-Pm0"/>
                                             <outlet property="infoLabel" destination="7hV-8I-Ftj" id="lWJ-yh-6yd"/>
                                             <outlet property="labelTitle" destination="uVp-jA-7Pm" id="QUe-uH-Y78"/>
                                         </connections>
@@ -197,7 +197,6 @@
         <image name="chevron.backward.circle.fill" catalog="system" width="128" height="121"/>
         <image name="eye.fill" catalog="system" width="128" height="78"/>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
-        <image name="hr" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

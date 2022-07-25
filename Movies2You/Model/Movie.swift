@@ -14,5 +14,4 @@ struct Movie: Codable {
     let release_date: String
     let vote_count: Int
     let backdrop_path: String
-    
 }

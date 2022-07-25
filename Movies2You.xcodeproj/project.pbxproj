@@ -12,6 +12,7 @@
 		CE453A69288E3357004B2124 /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE453A68288E3357004B2124 /* Genres.swift */; };
 		CE453A6D288E3441004B2124 /* SimilarMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE453A6C288E3441004B2124 /* SimilarMovieCell.swift */; };
 		CE453A72288E347A004B2124 /* ModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE453A71288E347A004B2124 /* ModelViewModel.swift */; };
+		CE453A82288E4394004B2124 /* Movies2YouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE453A81288E4394004B2124 /* Movies2YouTests.swift */; };
 		CE78FAD6288A665400F81EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78FAD5288A665400F81EA9 /* AppDelegate.swift */; };
 		CE78FAD8288A665400F81EA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78FAD7288A665400F81EA9 /* SceneDelegate.swift */; };
 		CE78FADA288A665400F81EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78FAD9288A665400F81EA9 /* ViewController.swift */; };
@@ -20,12 +21,25 @@
 		CE78FAE2288A665700F81EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE78FAE0288A665700F81EA9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CE453A84288E4394004B2124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE78FACA288A665400F81EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE78FAD1288A665400F81EA9;
+			remoteInfo = Movies2You;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		CE453A62288E32F8004B2124 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CE453A65288E3340004B2124 /* Similar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Similar.swift; sourceTree = "<group>"; };
 		CE453A68288E3357004B2124 /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
 		CE453A6C288E3441004B2124 /* SimilarMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarMovieCell.swift; sourceTree = "<group>"; };
 		CE453A71288E347A004B2124 /* ModelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewModel.swift; sourceTree = "<group>"; };
+		CE453A7F288E4394004B2124 /* Movies2YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Movies2YouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE453A81288E4394004B2124 /* Movies2YouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies2YouTests.swift; sourceTree = "<group>"; };
+		CE453A83288E4394004B2124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE78FAD2288A665400F81EA9 /* Movies2You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies2You.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE78FAD5288A665400F81EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE78FAD7288A665400F81EA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE453A7C288E4394004B2124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE78FACF288A665400F81EA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,10 +95,20 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		CE453A80288E4394004B2124 /* Movies2YouTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE453A81288E4394004B2124 /* Movies2YouTests.swift */,
+				CE453A83288E4394004B2124 /* Info.plist */,
+			);
+			path = Movies2YouTests;
+			sourceTree = "<group>";
+		};
 		CE78FAC9288A665400F81EA9 = {
 			isa = PBXGroup;
 			children = (
 				CE78FAD4288A665400F81EA9 /* Movies2You */,
+				CE453A80288E4394004B2124 /* Movies2YouTests */,
 				CE78FAD3288A665400F81EA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				CE78FAD2288A665400F81EA9 /* Movies2You.app */,
+				CE453A7F288E4394004B2124 /* Movies2YouTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,8 +128,8 @@
 				CE453A61288E32E8004B2124 /* Model */,
 				CE453A6B288E336E004B2124 /* View */,
 				CE453A70288E3457004B2124 /* ViewModel */,
-				CE78FAD5288A665400F81EA9 /* AppDelegate.swift */,
 				CE78FAD7288A665400F81EA9 /* SceneDelegate.swift */,
+				CE78FAD5288A665400F81EA9 /* AppDelegate.swift */,
 				CE78FADB288A665400F81EA9 /* Main.storyboard */,
 				CE78FADE288A665700F81EA9 /* Assets.xcassets */,
 				CE78FAE0288A665700F81EA9 /* LaunchScreen.storyboard */,
@@ -109,6 +141,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE453A7E288E4394004B2124 /* Movies2YouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE453A86288E4394004B2124 /* Build configuration list for PBXNativeTarget "Movies2YouTests" */;
+			buildPhases = (
+				CE453A7B288E4394004B2124 /* Sources */,
+				CE453A7C288E4394004B2124 /* Frameworks */,
+				CE453A7D288E4394004B2124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE453A85288E4394004B2124 /* PBXTargetDependency */,
+			);
+			name = Movies2YouTests;
+			productName = Movies2YouTests;
+			productReference = CE453A7F288E4394004B2124 /* Movies2YouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CE78FAD1288A665400F81EA9 /* Movies2You */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE78FAE6288A665700F81EA9 /* Build configuration list for PBXNativeTarget "Movies2You" */;
@@ -135,6 +185,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					CE453A7E288E4394004B2124 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CE78FAD1288A665400F81EA9;
+					};
 					CE78FAD1288A665400F81EA9 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -154,11 +208,19 @@
 			projectRoot = "";
 			targets = (
 				CE78FAD1288A665400F81EA9 /* Movies2You */,
+				CE453A7E288E4394004B2124 /* Movies2YouTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE453A7D288E4394004B2124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE78FAD0288A665400F81EA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,6 +234,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE453A7B288E4394004B2124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE453A82288E4394004B2124 /* Movies2YouTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE78FACE288A665400F81EA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,6 +258,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE453A85288E4394004B2124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE78FAD1288A665400F81EA9 /* Movies2You */;
+			targetProxy = CE453A84288E4394004B2124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE78FADB288A665400F81EA9 /* Main.storyboard */ = {
@@ -209,6 +287,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CE453A87288E4394004B2124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6CBP39P5K;
+				INFOPLIST_FILE = Movies2YouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Mesquita.Movies2You.Movies2YouTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies2You.app/Movies2You";
+			};
+			name = Debug;
+		};
+		CE453A88288E4394004B2124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6CBP39P5K;
+				INFOPLIST_FILE = Movies2YouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Mesquita.Movies2You.Movies2YouTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies2You.app/Movies2You";
+			};
+			name = Release;
+		};
 		CE78FAE4288A665700F81EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -366,6 +484,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE453A86288E4394004B2124 /* Build configuration list for PBXNativeTarget "Movies2YouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE453A87288E4394004B2124 /* Debug */,
+				CE453A88288E4394004B2124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE78FACD288A665400F81EA9 /* Build configuration list for PBXProject "Movies2You" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
